@@ -1,0 +1,12 @@
+<main class="container">
+  <h1>CSV parse application</h1>
+  <p>Select CSV file:</p>
+  <form id="fileForm" method="post" action="/" enctype="multipart/form-data">
+    <label class='btn btn-primary'>
+      <input type="file" id="sourceFile" name="csvFile" accept=".csv" required>
+      <span><i class='emoji unselect'></i>Upload file</span>
+    </label>
+    <button type="submit" class="btn btn-secondary">Parse!</button>
+  </form>
+  <hr>
+</main>
